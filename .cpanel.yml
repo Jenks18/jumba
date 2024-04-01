@@ -1,5 +1,7 @@
 ---
 deployment:
   tasks:
-   - export DEPLOYPATH=/home/gaea-rx/public_html/
+   - export DEPLOYPATH=/home/gaearx/public_html/
    - /bin/cp -R * $DEPLOYPATH
+   - /bin/cp ./public/js/*.js $DEPLOYPATH/public_html/js
+   - /bin/cp ./public/css/*.css $DEPLOYPATH/public_html/css
