@@ -2,4 +2,4 @@
 deployment:
   tasks:
    - export DEPLOYPATH=/home/gaearx/public_html/
-   - /bin/cp -R Jumba $DEPLOYPATH
+   - /bin/cp -R * $DEPLOYPATH
